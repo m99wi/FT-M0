@@ -14,25 +14,57 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
+#ejerciciodos {
+     display: none; 
+
+}
+
 
 
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
-
+#ejerciciotres {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
 
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
-
+#ejerciciocuatro {
+    position: fixed;
+     top: 0px;
+     left: 0px;
+}
 
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
-
-
+#ejerciciocinco {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ 
+}
 
 /* Ejercicio 6. */
+#ejercicioseis {
+    width: 500px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    position: relative;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
